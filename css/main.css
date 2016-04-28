@@ -35,7 +35,8 @@ body {
 
 .hero {
   padding-top: 55px;
-  background: #fff;
+  background: #fff url(../img/kitchen.jpg) no-repeat center center;
+  background-size: cover;
   position: relative;
 }
 .hero::after {
