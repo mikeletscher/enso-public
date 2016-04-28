@@ -234,6 +234,10 @@ body {
     margin-top: 0;
   }
 
+  .center-mobile {
+    text-align: center;
+  }
+
   .footer {
     padding-left: 20px;
     padding-right: 20px;
