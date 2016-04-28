@@ -227,7 +227,7 @@ body {
   }
 
   .hero {
-    padding-top: 30px;
+    padding: 20px;
     overflow-x: hidden;
   }
   .hero-text {
