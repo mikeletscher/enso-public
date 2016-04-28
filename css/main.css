@@ -6,6 +6,7 @@ html, body {
 body {
   font-family: "proxima-nova", sans-serif;
   font-size: 14px;
+  background: #292D32;
 }
 
 .header {
@@ -34,6 +35,7 @@ body {
 
 .hero {
   padding-top: 55px;
+  background: #fff;
   position: relative;
 }
 .hero::after {
