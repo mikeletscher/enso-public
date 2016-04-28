@@ -12,6 +12,10 @@ body {
   background: url(../img/blue_bg.png);
   padding: 24px 0;
 }
+.header .row {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 .container {
   max-width: 1000px;
@@ -218,6 +222,7 @@ body {
 
   .hero {
     padding-top: 30px;
+    overflow-x: hidden;
   }
   .hero-text h1 {
     margin-top: 0;
