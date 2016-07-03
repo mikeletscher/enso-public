@@ -11,7 +11,7 @@ body {
 
 .header {
   background: url(../img/blue_bg.png);
-  padding: 24px 0;
+  padding: 20px 0;
 }
 .header .row {
   margin-left: 0;
@@ -23,9 +23,17 @@ body {
   margin: 0 auto;
 }
 
+a {
+  color: #3698D4;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+
 .logo {
-  width: 179px;
-  height: 59px;
+  width: 150px;
+  height: 49px;
   display: inline-block;
   margin-left: -2px;
   background: url(../img/logo.png) no-repeat;
@@ -179,6 +187,20 @@ body {
 .text-left { text-align: left; }
 .text-center { text-align: center; }
 .text-right { text-align: right; }
+
+.white-content {
+  background: #fff;
+  padding: 40px 20px;
+}
+
+.terms-of-service h3, .privacy-policy h3 {
+  margin: 40px 0 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.terms-of-service p, .privacy-policy p {
+  line-height: 1.5rem;
+}
 
 @media screen and (max-width: 768px) {
   .header, .header .text-right {
